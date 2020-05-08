@@ -1,0 +1,125 @@
+body{
+	background: url("img-bg.jpg") no-repeat 100% 100%;
+	background-position: top center;
+	background-size:70%;
+	width: 70%;
+	margin:auto;
+}
+
+header{
+	display:flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	background:black;
+	align-items: center;
+	height: 70px;
+}
+
+header .logo{
+	color: white;
+	width:70px;
+	height:70px;
+	/*border: solid 2px red;*/
+	background: url("Capture.jpg") center center;
+	background-size: 100%;
+}
+
+header h2{
+	color: white;
+	/*height:100px;*/
+	/*border: solid 2px red;*/
+	text-align:center;
+	width:95%;
+	font-size: 2.6em;
+	font-family: "Helvetica Neue", "Open Sans", "Myriad Pro", "Centery gothic", Calibri, Sans-serif;
+}
+
+.transpa{
+	height:580px;
+	/*border: solid 2px red;*/
+	background: #51bfd0;
+	opacity: 0.4;
+}   
+
+.formulaire{
+	/*border: solid 2px blue;*/
+	width: 50%;
+	position: relative;
+	/*margin: -50px auto 0px auto;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top:-60%;
+	margin-bottom: 0px;
+}
+
+
+.mainContainer{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	
+}
+.formulaire h2{
+	/*border: solid 2px blue;*/
+	background: #51BFD0;
+	color: white;
+	font-family: Arial;
+	padding: 20px 15px 20px 15px;
+	font-size: 1.5em;
+}
+
+.formulaire div{
+	background: white;
+	margin-top: -20px;
+}
+
+.formulaire div form p{
+	display: flex;
+	flex-direction: column;
+}
+
+.champs{
+	height:50px;
+	width:80%;
+	margin: 0px auto 10px auto;
+	border-radius: 5px;
+	border: solid 1px silver;
+
+}
+
+button{
+	width:110px;
+	background: #3addd6;
+	height: 45px;
+	color: white;
+	border-radius: 5px;
+}
+
+.fond{
+	display:flex;
+	flex-direction:row;
+	padding-left: 48px;
+	padding-right: 100px;
+}
+
+::placeholder{
+	font-size: 1.2em;
+	padding-left:20px;
+	color: #818181;
+	opacity: 70%;
+}
+
+div form{
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.bof{
+	display: flex;
+}
+
+
+
+
